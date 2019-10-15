@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Downloading a file from Dropbox</description>
+        <ih_action>false</ih_action>
+        <internal_name>download_file</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Download_file</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:05:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5f90dd2f1b5400103fb27596cc4bcb40</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Download_file</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dropbox Spoke" source="x_snc_dropbox_spo">e8f75019db98cc1064dcf5861d961989</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dropbox Spoke">e8f75019db98cc1064dcf5861d961989</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_5f90dd2f1b5400103fb27596cc4bcb40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:48:05</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=5f90dd2f1b5400103fb27596cc4bcb40"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5f90dd2f1b5400103fb27596cc4bcb40"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=5f90dd2f1b5400103fb27596cc4bcb40^sys_idNOT INb9ab156b1bd400103fb27596cc4bcb68,fde79d671bd400103fb27596cc4bcba9"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Download_file">5f90dd2f1b5400103fb27596cc4bcb40</action>
+        <cid>5fa52158-d309-4b5d-8460-9d29419da912</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Builder step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:53:20</sys_created_on>
+        <sys_id>b9ab156b1bd400103fb27596cc4bcb68</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Dropbox Spoke">e8f75019db98cc1064dcf5861d961989</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:53:20</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b9ab156b1bd400103fb27596cc4bcb68"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9ab156b1bd400103fb27596cc4bcb68</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:53:20</sys_created_on>
+        <sys_id>39ab156b1bd400103fb27596cc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:53:20</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"id","value":"a4ayc_80_OEAAAAAAAAAYa"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"rev","value":"a1c10ce0dd78"}]}</value>
+        <variable display_value="">89cb2b82b3331300176b051a16a8dc32</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Download_file">5f90dd2f1b5400103fb27596cc4bcb40</action>
+        <cid>4ab06e06-77aa-4088-9a29-5d8256c92f9c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>fde79d671bd400103fb27596cc4bcba9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Dropbox Spoke">e8f75019db98cc1064dcf5861d961989</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:48:05</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fde79d671bd400103fb27596cc4bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>31e79d671bd400103fb27596cc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:36:57</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>35e79d671bd400103fb27596cc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:36:57</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 01:47:05</sys_created_on>
+        <sys_id>4df7a5271b1800103fb27596cc4bcbc5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:48:05</sys_updated_on>
+        <value/>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>71e79d671bd400103fb27596cc4bcbbb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:06:41</sys_updated_on>
+        <value>/files/download</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>7de79d671bd400103fb27596cc4bcbbb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:06:41</sys_updated_on>
+        <value>https://content.dropboxapi.com/2</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>b9e79d671bd400103fb27596cc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:36:57</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>f1e79d671bd400103fb27596cc4bcbbc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:47:05</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>f5e79d671bd400103fb27596cc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:36:57</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>f5e79d671bd400103fb27596cc4bcbbb</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:47:05</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Dropbox-API-Arg","value":"{\\\"path\\\": \\\"/Homework/math/Prime_Numbers.txt\\\"}\""},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Bearer S_usiim_sHAAAAAAAAABl4EO9grMldCeaincJtwVZmfnU_QWCy3tgygpmFBcGkeH"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="delete_multiple" query="action=5f90dd2f1b5400103fb27596cc4bcb40^sys_idNOT INb9ab156b1bd400103fb27596cc4bcb68,fde79d671bd400103fb27596cc4bcba9"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Download_file">5f90dd2f1b5400103fb27596cc4bcb40</action>
+        <cid>5fa52158-d309-4b5d-8460-9d29419da912</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Builder step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:53:20</sys_created_on>
+        <sys_id>b9ab156b1bd400103fb27596cc4bcb68</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Dropbox Spoke">e8f75019db98cc1064dcf5861d961989</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:53:20</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b9ab156b1bd400103fb27596cc4bcb68"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9ab156b1bd400103fb27596cc4bcb68</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:53:20</sys_created_on>
+        <sys_id>39ab156b1bd400103fb27596cc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:53:20</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"id","value":"a4ayc_80_OEAAAAAAAAAYa"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"rev","value":"a1c10ce0dd78"}]}</value>
+        <variable display_value="">89cb2b82b3331300176b051a16a8dc32</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Download_file">5f90dd2f1b5400103fb27596cc4bcb40</action>
+        <cid>4ab06e06-77aa-4088-9a29-5d8256c92f9c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>fde79d671bd400103fb27596cc4bcba9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Dropbox Spoke">e8f75019db98cc1064dcf5861d961989</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:48:05</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fde79d671bd400103fb27596cc4bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>31e79d671bd400103fb27596cc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:36:57</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>35e79d671bd400103fb27596cc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:36:57</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 01:47:05</sys_created_on>
+        <sys_id>4df7a5271b1800103fb27596cc4bcbc5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:48:05</sys_updated_on>
+        <value/>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>71e79d671bd400103fb27596cc4bcbbb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:06:41</sys_updated_on>
+        <value>/files/download</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>7de79d671bd400103fb27596cc4bcbbb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:06:41</sys_updated_on>
+        <value>https://content.dropboxapi.com/2</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>b9e79d671bd400103fb27596cc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:36:57</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>f1e79d671bd400103fb27596cc4bcbbc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:47:05</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>f5e79d671bd400103fb27596cc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 00:36:57</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>fde79d671bd400103fb27596cc4bcba9</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 00:36:57</sys_created_on>
+        <sys_id>f5e79d671bd400103fb27596cc4bcbbb</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-11 01:47:05</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Dropbox-API-Arg","value":"{\\\"path\\\": \\\"/Homework/math/Prime_Numbers.txt\\\"}\""},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Bearer S_usiim_sHAAAAAAAAABl4EO9grMldCeaincJtwVZmfnU_QWCy3tgygpmFBcGkeH"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+</record_update>
